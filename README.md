@@ -1,3 +1,163 @@
+# 💻 100 Días de JavaScript
+
+<div align="center">
+  <img src="https://img.shields.io/badge/100%20Días-JavaScript-yellow?style=for-the-badge&logo=javascript" alt="100 Días de JavaScript"/>
+  <br>
+  <img src="https://img.shields.io/github/stars/gianmattus-programmer/100-DIAS-DE-JS?style=social" alt="GitHub stars"/>
+  <img src="https://img.shields.io/github/forks/gianmattus-programmer/100-DIAS-DE-JS?style=social" alt="GitHub forks"/>
+  <img src="https://img.shields.io/github/issues/gianmattus-programmer/100-DIAS-DE-JS?style=social" alt="GitHub issues"/>
+  <br>
+  <br>
+  <img src="https://skillicons.dev/icons?i=js,html,css,react,nodejs" alt="Tecnologías"/>
+  
+  ### 📊 Estadísticas del Reto
+  
+  <table>
+    <tr>
+      <td><strong>Proyectos Completados</strong></td>
+      <td><strong>Líneas de Código</strong></td>
+      <td><strong>Horas Invertidas</strong></td>
+    </tr>
+    <tr>
+      <td>78/100</td>
+      <td>~15,000</td>
+      <td>~234</td>
+    </tr>
+  </table>
+
+  <div style="background-color: #f3f3f3; border-radius: 8px; padding: 4px; margin: 10px 0;">
+    <div style="background-color: #FFD700; width: 78%; height: 20px; border-radius: 6px; text-align: center; color: #000;">
+      78%
+    </div>
+  </div>
+
+  <p align="center"><i>78 de 100 días completados</i></p>
+  
+  <details>
+    <summary>📈 Distribución de Tecnologías</summary>
+    <br>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gianmattus-programmer&layout=compact&hide_title=true&theme=default" alt="Lenguajes más usados"/>
+  </details>
+</div>
+
+## 🎯 Acerca del Reto
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40"/>
+        <br>JavaScript
+      </td>
+      <td align="center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40"/>
+        <br>HTML5
+      </td>
+      <td align="center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40"/>
+        <br>CSS3
+      </td>
+      <td align="center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40"/>
+        <br>React
+      </td>
+      <td align="center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" height="40"/>
+        <br>Node.js
+      </td>
+    </tr>
+  </table>
+</div>
+
+Un desafío personal para mejorar mis habilidades en JavaScript creando 100 proyectos diferentes, uno cada día. Este reto está diseñado para fortalecer el dominio del lenguaje a través de la práctica constante y la creación de proyectos reales.
+
+## 📊 Categorías de Proyectos
+
+<div align="center">
+  <table border="0">
+    <tr>
+      <td width="50%" valign="top">
+        <img src="https://quickchart.io/chart?c={type:'doughnut',data:{labels:['Juegos','Utilidades','APIs','UI/UX','Extensiones'],datasets:[{data:[25,20,15,10,8]}]}}" width="100%" alt="Distribución de Proyectos"/>
+      </td>
+      <td width="50%" valign="top">
+        <table>
+          <tr>
+            <th>Categoría</th>
+            <th>Cantidad</th>
+            <th>Descripción</th>
+          </tr>
+          <tr>
+            <td>🎮 Juegos</td>
+            <td align="center">25</td>
+            <td>Proyectos de juegos interactivos</td>
+          </tr>
+          <tr>
+            <td>🛠️ Utilidades</td>
+            <td align="center">20</td>
+            <td>Herramientas y utilidades</td>
+          </tr>
+          <tr>
+            <td>🌐 APIs</td>
+            <td align="center">15</td>
+            <td>Integraciones con APIs</td>
+          </tr>
+          <tr>
+            <td>🎨 UI/UX</td>
+            <td align="center">10</td>
+            <td>Componentes y diseños</td>
+          </tr>
+          <tr>
+            <td>🧩 Extensiones</td>
+            <td align="center">8</td>
+            <td>Extensiones para navegador</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+
+## 📊 Progreso Actual
+
+<div align="center">
+  <svg width="500" height="20">
+    <rect width="500" height="20" fill="#eee" rx="10"/>
+    <rect width="390" height="20" fill="#FFD700" rx="10"/>
+    <text x="250" y="15" font-family="Arial" font-size="12" fill="black" text-anchor="middle">
+      78%
+    </text>
+  </svg>
+  
+  <p><strong>78</strong> de 100 días completados</p>
+</div>
+
+- **Proyectos Completados**: 78/100
+- **Proyectos Restantes**: 22
+- **Estado**: En progreso 🚀
+
+## 🌟 Características
+
+- Proyectos prácticos y variados
+- Código fuente completo disponible
+- Demos en vivo de cada proyecto
+- Documentación detallada
+- Actualizaciones regulares
+
+## 🛠️ Tecnologías Utilizadas
+
+- JavaScript (ES6+)
+- HTML5 & CSS3
+- APIs modernas del navegador
+- Frameworks y librerías populares
+- Herramientas de desarrollo web
+
+## 📝 Cómo Usar Este Repositorio
+
+1. Navega por la lista de proyectos
+2. Haz clic en el enlace "Código" para ver el código fuente
+3. Visita el "Website" para ver la demo en vivo
+4. ¡Experimenta y aprende!
+
 # ✨ Proyectos
 
 | # | Proyecto | Descripción | Código | Website |
@@ -80,4 +240,114 @@
 | 76 | **Page Translator Extension** | Extensión de traducción de páginas | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)](https://github.com/username/100-DIAS-DE-JS/76-page-translator-extension) | [![Vercel Badge](https://img.shields.io/badge/Website-000?logo=vercel&logoColor=fff&style=flat-square)](https://your-website.dev/76-page-translator-extension) |
 | 77 | **AI Image Detector** | Detector de imágenes con IA | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)](https://github.com/username/100-DIAS-DE-JS/77-ai-image-detector) | [![Vercel Badge](https://img.shields.io/badge/Website-000?logo=vercel&logoColor=fff&style=flat-square)](https://your-website.dev/77-ai-image-detector) |
 | 78 | **Google Gemini Clone** | Clon de Google Gemini | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)](https://github.com/username/100-DIAS-DE-JS/78-google-gemini-clone) | [![Vercel Badge](https://img.shields.io/badge/Website-000?logo=vercel&logoColor=fff&style=flat-square)](https://your-website.dev/78-google-gemini-clone) |
+
+## 🚧 Próximos Proyectos
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Próximos-22_Proyectos-blue?style=for-the-badge" alt="Próximos proyectos"/>
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Actualización-Diaria-green?style=for-the-badge" alt="Actualización diaria"/>
+      </td>
+    </tr>
+  </table>
+
+  ### Algunos proyectos por venir:
+  
+  <table>
+    <tr>
+      <td>🎮 Mini Juego RPG</td>
+      <td>🤖 Bot de Discord</td>
+      <td>📊 Dashboard Crypto</td>
+    </tr>
+    <tr>
+      <td>🎨 Editor de Memes</td>
+      <td>🎵 Visualizador de Audio</td>
+      <td>🌍 Rastreador COVID</td>
+    </tr>
+  </table>
+</div>
+
+## 🤝 Contribuciones
+
+<div align="center">
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome"/>
+  
+  <table>
+    <tr>
+      <td>
+        <h3>👨‍💻 Cómo Contribuir</h3>
+        <ol>
+          <li>🍴 Fork del repositorio</li>
+          <li>🌿 Crea tu rama de características<br><code>git checkout -b feature/AmazingFeature</code></li>
+          <li>💾 Guarda tus cambios<br><code>git commit -m '✨ Add some AmazingFeature'</code></li>
+          <li>📤 Sube tus cambios<br><code>git push origin feature/AmazingFeature</code></li>
+          <li>🔄 Abre un Pull Request</li>
+        </ol>
+      </td>
+      <td>
+        <h3>🌟 Áreas de Contribución</h3>
+        <ul>
+          <li>📝 Documentación y guías</li>
+          <li>🐛 Reporte de errores</li>
+          <li>✨ Nuevas características</li>
+          <li>🎨 Mejoras de UI/UX</li>
+          <li>♿ Mejoras de accesibilidad</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</div>
+
+## 📫 Contacto y Redes Sociales
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/gianmattus-programmer">
+          <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://www.linkedin.com/in/giancarlos-chávez-mattus/">
+          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+        </a>
+      </td>
+      <td align="center">
+        <a href="mailto:chavezmattus@gmail.com">
+          <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+        </a>
+      </td>
+    </tr>
+  </table>
+
+  <p>¿Tienes preguntas o sugerencias? ¡No dudes en contactarme! 📩</p>
+</div>
+
+## ⭐ ¡Apoya este Proyecto!
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <h3>🌟 Dale una Estrella</h3>
+        <p>Si te resulta útil, ¡apóyalo con una estrella!</p>
+        <img src="https://img.shields.io/github/stars/gianmattus-programmer/100-DIAS-DE-JS?style=social" alt="GitHub stars"/>
+      </td>
+      <td align="center">
+        <h3>🔄 Comparte</h3>
+        <p>Ayuda a otros desarrolladores compartiendo este recurso</p>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://github.com/gianmattus-programmer/100-DIAS-DE-JS">
+          <img src="https://img.shields.io/badge/Compartir-Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Compartir en Facebook"/>
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+
 
