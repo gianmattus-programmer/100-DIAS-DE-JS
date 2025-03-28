@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--Creado por Gianmattus-Programmer-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Juego de Preguntas API | Gianmattus-Programmer</title>
+</head>
+
+<body>
+
+    <div id="quiz-container">
+        <div id="game-setup">
+            <div>
+                <label for="category">Elegir Categoría:</label>
+                <select id="category">
+                    <option value="">Cualquier Categoría</option>
+                </select>
+            </div>
+            <div>
+                <label for="amount">Número de Preguntas:</label>
+                <input type="number" id="amount" min="1" max="50" value="10">
+            </div>
+            <div>
+                <label for="difficulty">Seleccionar Dificultad:</label>
+                <select id="difficulty">
+                    <option value="">Cualquier Dificultad</option>
+                    <option value="easy">Fácil</option>
+                    <option value="medium">Media</option>
+                    <option value="hard">Difícil</option>
+                </select>
+            </div>
+            <button id="start-btn">Comenzar Juego</button>
+        </div>
+        <div id="quiz" style="display: none;">
+            <div id="progress"></div>
+            <div id="currentScore"></div>
+            <div id="highScore"></div>
+            <div id="question"></div>
+            <div id="answers"></div>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

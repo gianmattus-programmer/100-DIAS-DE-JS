@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--Creado por Gianmattus-Programmer-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Agregador de Noticias | Gianmattus-Programmer</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Agregador de Noticias</h1>
+
+        <div class="selectionContainer">
+            <label for="category">Elegir Categoría:</label>
+            <select id="category">
+                <option value="business">Negocios</option>
+                <option value="entertainment">Entretenimiento</option>
+                <option value="general">General</option>
+                <option value="health">Salud</option>
+                <option value="science">Ciencia</option>
+                <option value="sports">Deportes</option>
+                <option value="technology">Tecnología</option>
+            </select>
+            <button id="fetchCategory">Buscar Noticias</button>
+        </div>
+
+        <div class="searchContainer">
+            <input type="text" id="searchKeyword" placeholder="Buscar noticias...">
+            <button onclick="fetchNews(true)">Buscar</button>
+        </div>
+        <div id="newsContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

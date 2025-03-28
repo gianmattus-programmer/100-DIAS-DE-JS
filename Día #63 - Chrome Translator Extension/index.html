@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--Creado por Gianmattus-Programmer-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Extensión de Traductor Chrome | Gianmattus-Programmer</title>
+</head>
+
+<body>
+    <label for="inputText">Tu Texto:</label>
+    <textarea id="inputText" rows="10" placeholder="Escribe texto aquí..."></textarea>
+
+    <div>
+        <label for="translateFrom">Traducir De:</label>
+        <select id="translateFrom">
+            <option value="en">Inglés</option>
+        </select>
+        <label for="translateFrom">Traducir A:</label>
+        <select id="translateTo">
+            <option value="es">Español</option>
+        </select>
+    </div>
+
+    <button id="translateBtn">Traducir</button>
+    <button id="speakBtn">Hablar</button>
+    <div id="outputText" aria-readonly="true"></div>
+
+    <script src="countries.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

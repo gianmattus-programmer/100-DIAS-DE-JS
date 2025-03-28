@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--Creado por Gianmattus-Programmer-->
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aplicación de Tarjetas | Gianmattus-Programmer</title>
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="add-flashcard-con">
+        <button id="add-flashcard">Agregar Tarjeta</button>
+      </div>
+
+      <!-- Mostrar Tarjeta de Preguntas y Respuestas Aquí -->
+      <div id="card-con">
+        <div class="card-list-container"></div>
+      </div>
+    </div>
+
+    <!-- Formulario de entrada para que los usuarios completen pregunta y respuesta -->
+    <div class="question-container hide" id="add-question-card">
+      <h2>Agregar Tarjeta</h2>
+      <div class="wrapper">
+        <!-- Mensaje de error -->
+        <div class="error-con">
+          <span class="hide" id="error">¡Los campos no pueden estar vacíos!</span>
+        </div>
+        <!-- Botón Cerrar -->
+        <i class="fa-solid fa-xmark" id="close-btn"></i>
+      </div>
+
+      <label for="question">Pregunta:</label>
+      <textarea
+        class="input"
+        id="question"
+        placeholder="Escribe la pregunta aquí..."
+        rows="2"
+      ></textarea>
+      <label for="answer">Respuesta:</label>
+      <textarea
+        class="input"
+        id="answer"
+        rows="4"
+        placeholder="Escribe la respuesta aquí..."
+      ></textarea>
+      <button id="save-btn">Guardar</button>
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>

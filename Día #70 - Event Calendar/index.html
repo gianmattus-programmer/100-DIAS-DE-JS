@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--Creado por Gianmattus-Programmer-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calendario de Eventos | Gianmattus-Programmer</title>
+</head>
+
+<body>
+
+    <div class="planner">
+        <h1>Calendario de Eventos</h1>
+        <div id="calendar" class="calendar-grid"></div>
+    </div>
+
+    <button class="add-task-btn" onclick="showAddTaskModal()">Agregar Tarea</button>
+
+    <div id="addTaskModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeAddTaskModal()">&times;</span>
+            <h2>Agregar Tarea</h2>
+            <input type="date" id="task-date">
+            <input type="text" id="task-desc" placeholder="Descripción de la Tarea" autocomplete="off">
+            <button onclick="addTask()">Agregar Tarea</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

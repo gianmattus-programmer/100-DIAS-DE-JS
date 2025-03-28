@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--Creado por Gianmattus-Programmer-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Generador de Gráficos en Vivo | Gianmattus-Programmer</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="chart-container">
+            <div id="canvas-container"></div>
+        </div>
+
+        <div class="controls">
+            <select id="chartType" class="select">
+                <option value="bar">Barras</option>
+                <option value="line">Línea</option>
+                <option value="pie">Circular</option>
+                <option value="doughnut">Anillo</option>
+                <option value="radar">Radar</option>
+            </select>
+            <input type="text" id="labelInput" class="input" placeholder="Etiqueta">
+            <input type="number" id="dataInput" class="input" placeholder="Dato">
+            <button onclick="addData()" class="btn">Agregar Dato</button>
+            <button onclick="updateChartType()" class="btn">Cambiar Tipo de Gráfico</button>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

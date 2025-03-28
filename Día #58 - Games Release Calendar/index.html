@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--Creado por Gianmattus-Programmer-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calendario de Lanzamientos de Juegos | Gianmattus-Programmer</title>
+</head>
+
+<body>
+
+    <h1>Calendario de Lanzamientos de Videojuegos</h1>
+    <div class="controls">
+        <button id="prevMonth">Anterior</button>
+        <span id="currentMonthYear"></span>
+        <button id="nextMonth">Siguiente</button>
+    </div>
+
+    <div id="calendar"></div>
+
+    <div id="gameModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="" id="gameImage">
+            <h2 id="gameTitle"></h2>
+            <p><strong>Descripción:</strong> <span id="gameDescription"></span></p>
+            <p><strong>Fecha de Lanzamiento:</strong> <span id="gameReleaseDate"></span></p>
+            <p><strong>Calificación:</strong> <span id="gameRating"></span></p>
+            <p><strong>Plataformas:</strong> <span id="gamePlatforms"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

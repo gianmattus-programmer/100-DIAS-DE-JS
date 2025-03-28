@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--Creado por Gianmattus-Programmer-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Detector de Imágenes IA | Gianmattus-Programmer</title>
+</head>
+
+<body>
+
+    <h1>Detector de Imágenes IA</h1>
+
+    <div class="wrapper">
+        <div class="upload-container">
+            <h3>Sube tu Imagen</h3>
+            <div class="buttons">
+                <input type="file" id="imageInput" accept="image/*" style="display: none;">
+                <button class="file-input-button" onclick="document.getElementById('imageInput').click();">Elegir
+                    Archivo</button>
+                <button id="uploadButton">Analizar Imagen</button>
+            </div>
+            <img src="not-found.jpg" id="imagePreview">
+        </div>
+
+        <div class="colors-container">
+            <p class="error">Nada que mostrar...</p>
+        </div>
+
+    </div>
+
+    <div class="tags-container">
+        <h3>Datos de la Imagen</h3>
+        <p class="error">Nada que mostrar...</p>
+        <div class="results"></div>
+        <div class="buttons">
+            <button id="seeMoreButton" style="display: none;">Ver Más</button>
+            <button id="exportTagsButton" style="display: none;">Exportar Etiquetas</button>
+        </div>
+    </div>
+
+    <div id="uploadModal" class="modal">
+        <div class="modal-content">
+            <h3>Subiendo Imagen...</h3>
+            <div class="progress-bar">
+                <div id="uploadProgress" class="progress"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

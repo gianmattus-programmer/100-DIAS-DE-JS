@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--Creado por Gianmattus-Programmer-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>Generador de Contraseñas | Gianmattus-Programmer</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Generador de Contraseñas</h2>
+        <div class="wrapper">
+            <div class="input-box">
+                <input type="text" disabled>
+                <span class="material-symbols-rounded">copy_all</span>
+            </div>
+            <div class="pass-indicator"></div>
+            <div class="pass-length">
+                <div class="details">
+                    <label class="title">Longitud de Contraseña</label>
+                    <span></span>
+                </div>
+                <input type="range" min="1" max="30" value="15" step="1">
+            </div>
+
+            <div class="pass-settings">
+                <label class="title">Configuración de Contraseña</label>
+                <ul class="options">
+                    <li class="option">
+                        <input type="checkbox" id="lowercase" checked>
+                        <label for="lowercase">Minúsculas (a-z)</label>
+                    </li>
+                    <li class="option">
+                        <input type="checkbox" id="uppercase">
+                        <label for="uppercase">Mayúsculas (A-Z)</label>
+                    </li>
+                    <li class="option">
+                        <input type="checkbox" id="numbers">
+                        <label for="numbers">Números (0-9)</label>
+                    </li>
+                    <li class="option">
+                        <input type="checkbox" id="symbols">
+                        <label for="symbols">Símbolos (!-$^+)</label>
+                    </li>
+                    <li class="option">
+                        <input type="checkbox" id="exc-duplicate">
+                        <label for="exc-duplicate">Excluir Duplicados</label>
+                    </li>
+                    <li class="option">
+                        <input type="checkbox" id="spaces">
+                        <label for="spaces">Incluir Espacios</label>
+                    </li>
+                </ul>
+            </div>
+
+            <button class="generate-btn">Generar Contraseña</button>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

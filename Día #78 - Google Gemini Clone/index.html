@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--Creado por Gianmattus-Programmer-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Google Gemini Clone | Gianmattus-Programmer</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <h3 class="navbar__logo">GianMattus Gemini</h3>
+        <button class="navbar__button" id="themeToggler"><i class='bx bx-sun'></i></button>
+    </nav>
+
+    <header class="header">
+        <div class="header__title">
+            <h1>¡Hola!</h1>
+            <h2>¿Cómo puedo ayudarte hoy?</h2>
+        </div>
+        <div class="suggests">
+            <div class="suggests__item">
+                <p class="suggests__item-text">
+                    Dame consejos para ayudar a los niños a terminar sus tareas a tiempo
+                </p>
+                <div class="suggests__item-icon">
+                    <i class='bx bx-stopwatch'></i>
+                </div>
+            </div>
+            <div class="suggests__item">
+                <p class="suggests__item-text">
+                    Ayúdame a escribir un correo de ausencia en la oficina
+                </p>
+                <div class="suggests__item-icon">
+                    <i class='bx bx-edit-alt'></i>
+                </div>
+            </div>
+            <div class="suggests__item">
+                <p class="suggests__item-text">
+                    Dame frases para aprender un nuevo idioma
+                </p>
+                <div class="suggests__item-icon">
+                    <i class='bx bx-compass'></i>
+                </div>
+            </div>
+            <div class="suggests__item">
+                <p class="suggests__item-text">
+                    Muéstrame cómo construir algo a mano
+                </p>
+                <div class="suggests__item-icon">
+                    <i class='bx bx-wrench'></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="chats"></section>
+
+    <section class="prompt">
+        <form action="#" class="prompt__form" novalidate>
+            <div class="prompt__input-wrapper">
+                <input type="text" placeholder="Escribe tu pregunta aquí" class="prompt__form-input" required>
+                <button class="prompt__form-button" id="sendButton">
+                    <i class='bx bx-send'></i>
+                </button>
+                <button class="prompt__form-button" id="deleteButton">
+                    <i class='bx bx-trash'></i>
+                </button>
+            </div>
+        </form>
+        <p class="prompt__disclaim">
+            Gemini puede mostrar información inexacta, incluso sobre personas, así que verifica sus respuestas.
+        </p>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

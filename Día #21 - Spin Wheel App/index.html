@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--Creado por Gianmattus-Programmer-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>App de Ruleta | Gianmattus-Programmer</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="container">
+            <canvas id="wheel"></canvas>
+            <button id="spin-btn">Girar</button>
+            <img src="spinner-arrow.svg" alt="flecha">
+        </div>
+        <div id="final-value">
+            <p>Haz clic en el botón girar para comenzar</p>
+        </div>
+    </div>
+
+    <!-- Chart JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <!-- Chart JS Plugin para mostrar texto sobre el gráfico -->
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.1.0/chartjs-plugin-datalabels.min.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>

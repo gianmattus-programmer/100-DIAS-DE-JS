@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--Creado por Gianmattus-Programmer-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de Tareas | Gianmattus-Programmer</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="task-input">
+            <img src="bars-icon.svg">
+            <input type="text" placeholder="Agregar una nueva tarea">
+        </div>
+
+        <div class="controls">
+            <div class="filters">
+                <span id="all" class="active">
+                    Todas
+                </span>
+                <span id="pending">Pendientes</span>
+                <span id="completed">Completadas</span>
+            </div>
+            <button class="clear-btn">Borrar Todo</button>
+        </div>
+        <ul class="task-box"></ul>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--Creado por Gianmattus-Programmer-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Generador de Imágenes con IA | Gianmattus-Programmer</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Generador de Imágenes con IA</h1>
+        <p>Escribe tu prompt aquí para generar imágenes con el poder de la IA. Por ejemplo: "Mejor Calidad, Obra Maestra,
+            Extremadamente Detallado, Alta Resolución, 4K, Ultra Alta Resolución, Sombras Detalladas, (Dos Chicas en Disfraces
+            Tomándose Selfies en la Calle), Trenzas Coloridas, Estilo Fujifilm, Lindo, Risa".</p>
+        <form class="gen-form">
+            <input type="text" id="user-prompt" placeholder="Escribe tu prompt aquí..." autocomplete="off">
+            <button type="button" id="generate">Generar</button>
+        </form>
+
+        <div class="result">
+            <div id="loading">Generando...</div>
+            <div id="image-grid"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

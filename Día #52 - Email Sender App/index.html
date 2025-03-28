@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <!--Creado por Gianmattus-Programmer-->
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Enviar Correo | Gianmattus-Programmer</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="gradient-section">
+            <div class="gradient"></div>
+            <div class="gradient-content">
+                <h1 class="heading">Bienvenido a nuestro <span>Centro</span> Creativo!</h1>
+                <p class="paragraph">Tu puerta de entrada a un mundo de posibilidades creativas comienza aquí.</p>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <h2>¡Hola, Amigo!</h2>
+            <p>¡Bienvenido a nuestro formulario de envío de correo!</p>
+            <form>
+                <div class="form-group">
+                    <label for="to">Para:</label>
+                    <input type="text" id="to" name="to" required autocomplete="off" placeholder="ejemplo@correo.com">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Asunto:</label>
+                    <input type="text" id="subject" name="subject" required autocomplete="off"
+                        placeholder="Solicitud de Colaboración">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" required spellcheck="false" autocomplete="off"
+                        placeholder="Tu mensaje..."></textarea>
+                </div>
+                <div class="form-group result-container">
+                    <p class="result">Correo enviado exitosamente.</p>
+                    <button type="button" class="send-btn">Enviar Correo</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--Creado por Gianmattus-Programmer-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Voz a Texto | Gianmattus-Programmer</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <p class="header">Voz a Texto</p>
+        <div class="settings">
+            <div class="language">
+                <p>Idioma :</p>
+                <select id="language"></select>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <button class="btn record">
+            <div class="icon">
+                <i class='bx bx-microphone'></i>
+                <i class='bx bx-loader bx-spin'></i>
+            </div>
+            <p>Comenzar a Escuchar</p>
+        </button>
+
+        <p>Resultado :</p>
+        <div class="result" spellcheck="false">
+            <p class="resultText"></p>
+        </div>
+
+        <div class="separator"></div>
+
+        <div class="buttons">
+            <button class="btn clear">
+                Limpiar
+            </button>
+            <button class="btn download" disabled>Descargar</button>
+        </div>
+
+    </div>
+
+    <script src="languages.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
